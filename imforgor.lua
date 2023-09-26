@@ -1,4 +1,5 @@
 local a = {}
+local Player, ReplicatedStorage, Debris = game.Players.LocalPlayer, game.ReplicatedStorage, game.Debris
 local storage
 -- ye it do stuff :fiery: --
 do
