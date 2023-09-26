@@ -13,7 +13,7 @@ function a:playaudio(delay, audioid, startpos)
     if storage:FindFirstChild(tostring(audioid)) then return end
     local sound = Instance.new("Sound")
     sound.Name = "" .. audioid
-    sound.Parent = game.ReplicatedStorage.SoundStorage
+    sound.Parent = storage
     sound.SoundId = "rbxassetid://" .. audioid
     sound:Play()
     sound.Volume = 0
